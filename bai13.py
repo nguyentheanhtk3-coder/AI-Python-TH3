@@ -1,0 +1,10 @@
+a = input().split()
+b = input().split()
+set_a = set(a)
+set_b = set(b)
+#giao 2 set
+print(set_a & set_b)
+#hop 2 set
+print(set_a | set_b)
+#hieu 2 set
+print(set_a - set_b)
